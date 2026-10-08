@@ -7,7 +7,7 @@ El problema se enfoca principalmente en las personas que tienen enfermedades en 
 
 ## Objetivo
 
-El objetivo es analizar las distintas fuentes de información sobre los cambios meteorológicos y los aspectos que afectan a la gente con problemas o enfermedades de piel. 
+El objetivo es analizar las distintas fuentes de información sobre los cambios meteorológicos y los aspectos que afectan a la gente con problemas o enfermedades de piel.
 
 
 ### ¿Qué datos existen ya y de dónde se extraen?
