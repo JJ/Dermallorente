@@ -28,5 +28,9 @@ func EvaluarRiesgoCutaneo(temp Temperatura, humedad HumedadRelativa, viento Velo
 		return RiesgoAlto, nil
 	}
 
+	if humedad <= 45.0 || temp <= 12.0 {
+		return RiesgoModerado, nil
+	}
+
 	return RiesgoBajo, nil
 }
