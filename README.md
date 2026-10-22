@@ -27,3 +27,12 @@ Tenemos esta fuente de datos con datos relevantes com NO2 en Granada (en CSV y t
 
 https://www.granada.org/inet/calidadaire.nsf/aire.csv
 https://www.granada.org/inet/calidadaire.nsf#estado
+
+## Autores y Copyright
+Kevin González Sánchez - Kevings7
+Aitor Inarejos Hedrera - aaiterih 
+Manuel Cazorla Chica - manucazorla65
+Luis Pérez Velasco - LuisPV05 
+Raúl Gabaldón Sánchez - raulgs24
+Álvaro Altamirano Amaro  - Alvarooo4
+Justo García Medina - jgarmed8
