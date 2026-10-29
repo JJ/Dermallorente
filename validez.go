@@ -1,7 +1,7 @@
 package dermallorente
 
-struct validez{
-	type hora int
+type validez struct{
+	hora int
 }
 
 const(
