@@ -1,10 +1,8 @@
 package dermallorente
 
-type temperatura struct {
-	grados float32
-}
+type temperatura float32
 
 const (
-	MinimaTemperatura float32 = -30.0
-	MaximaTemperatura float32 = 60.0
+	MinimaTemperatura temperatura = -30.0
+	MaximaTemperatura temperatura = 60.0
 )
