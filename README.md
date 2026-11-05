@@ -20,6 +20,10 @@ Añadimos el análisis del día anterior para poder planificar salidas o recados
 Fuente: Archivos XML por municipio (
 [predicción a 7 días](https://www.aemet.es/xml/municipios/localidad_18087.xml)).
 
+## Predicciones 24/48h calidad del aire: 
+El proyecto utiliza un conjunto de datos en formato CSV que contiene la predicción en 24/48h de la calidad del aire en distintas estaciones.
+
+https://datos.gob.es/es/catalogo/e05068001-indice-nacional-de-calidad-del-aire 
 
 ## Predicción en Granada
 
