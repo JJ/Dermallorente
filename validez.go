@@ -1,5 +1,7 @@
 package dermallorente
 
+import "fmt"
+
 type validez struct{
 	hora int
 }
@@ -10,9 +12,10 @@ const(
 )
 
 
-func NuevaValidez(hora, int) (Validez, error){
-	if hora < MinimoHora || hora > MaximoHora
-		//DEVUELVE ERROR
-
+func NewValidez(hora, int) (Validez, error){
+	
+	if hora < MinimoHora || hora > MaximoHora {
+		return Validez{}, fmt.Errorf("hora %d fuera de rango [%d, %d]", hora, MinimoHora, MaximoHora)
+	}
 	return Validez{hora: hora}, nil
 }
