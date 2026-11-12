@@ -1,7 +1,8 @@
 package dermallorente
 
-type radiacionUV int
+type radiacionUV uint
 
 const (
     RadiacionUVMinima radiacionUV = 0
+	RadiacionUVMaxima readiacionUV = 44 
 )
