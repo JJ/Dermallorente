@@ -19,7 +19,7 @@ concurrency:
 
 jobs:
   # Build job
-  build:
+  Dermallorente-build:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
