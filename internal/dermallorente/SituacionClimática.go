@@ -12,9 +12,9 @@ const (
 type CodigoMunicipio string
 
 type Momento struct {
-	Año int
+	Año uint16
 	Mes  time.Month
-	Dia  int
+	Dia  uint8
 	Hora validezMáxima
 }
 
