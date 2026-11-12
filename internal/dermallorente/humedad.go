@@ -1,12 +1,7 @@
 package dermallorente
 
-import "fmt"
-
-const (
-	MinHumedad = 0
-	MaxHumedad = 100
-)
-
 type Humedad struct {
-	porcentaje int
+	porcentaje uint8
 }
+
+const MáximoHumedad uint8 = 100
