@@ -36,7 +36,7 @@ jobs:
 
   # Deployment job
   deploy:
-    needs: build
+    needs: Dermallorente-build
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
