@@ -4,5 +4,5 @@ type radiacionUV uint
 
 const (
     RadiacionUVMinima radiacionUV = 0
-	RadiacionUVMaxima readiacionUV = 44 
+	RadiacionUVMaxima radiacionUV = 44 
 )
