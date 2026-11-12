@@ -15,7 +15,7 @@ type Momento struct {
 	Año int
 	Mes  time.Month
 	Dia  int
-	Hora uint8
+	Hora validezMáxima
 }
 
 type ClaveSituacion struct {
