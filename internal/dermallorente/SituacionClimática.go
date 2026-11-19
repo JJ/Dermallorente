@@ -2,13 +2,15 @@ package dermallorente
 
 import "time"
 
+const MáximoHora uint8 = 23
+
 type CodigoMunicipio string
 
 type Momento struct {
-	Año uint16
+	Año  uint16
 	Mes  time.Month
 	Dia  uint8
-	Hora validezMáxima
+	Hora uint8
 }
 
 type ClaveSituacion struct {
@@ -18,7 +20,8 @@ type ClaveSituacion struct {
 
 type SituacionClimatica struct {
 	Clave       ClaveSituacion
-	Temperatura Temperatura
-	Humedad     HumedadRelativa
+	Temperatura temperatura
+	Humedad     Humedad
 	Viento      VelocidadViento
+	RadiacionUV IndiceUV
 }
