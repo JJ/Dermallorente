@@ -1,11 +1,5 @@
 package dermallorente
 
-import "fmt"
+import "time"
 
-type validezMáxima struct{
-	hora uint8 
-}
-
-const MáximoHora uint8 = 23 
-
-
+type ValidezPrediccion = time.Time
