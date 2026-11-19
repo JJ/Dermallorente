@@ -2,13 +2,6 @@ package dermallorente
 
 import "time"
 
-type Origen string
-
-const (
-	Observado  Origen = "Observado"
-	Prediccion Origen = "Prediccion"
-)
-
 type CodigoMunicipio string
 
 type Momento struct {
@@ -21,7 +14,6 @@ type Momento struct {
 type ClaveSituacion struct {
 	Zona    CodigoMunicipio
 	Momento Momento
-	Origen  Origen
 }
 
 type SituacionClimatica struct {
