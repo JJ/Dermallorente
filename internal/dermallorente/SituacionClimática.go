@@ -20,6 +20,5 @@ type SituacionClimatica struct {
 	Clave       ClaveSituacion
 	Temperatura temperatura
 	Humedad     Humedad
-	Viento      VelocidadViento
 	RadiacionUV IndiceUV
 }
