@@ -2,8 +2,6 @@ package dermallorente
 
 import "time"
 
-const MáximoHora uint8 = 23
-
 type CodigoMunicipio string
 
 type Momento struct {
