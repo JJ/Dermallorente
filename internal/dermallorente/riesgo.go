@@ -7,16 +7,17 @@ type HumedadRelativa float64
 type VelocidadViento float64
 type NivelRiesgoCutaneo string
 
-const MinimoHumedad int = 0
-const MaximoHumedad int = 100
-const RiesgoExtremoTemp int = 10
-const RiesgoExtremoHum int  = 20
-const RiesgoExtremoViento int = 20.0
-const RiesgoAltoHum int = 30
-const RiesgoAltoTemp int = 5
-const RiesgoModHum int = 45
-const RiesgoModTemp int = 12
-
+const (
+	MinimoHumedad       HumedadRelativa = 0
+	MaximoHumedad       HumedadRelativa = 100
+	RiesgoExtremoTemp   Temperatura     = 10
+	RiesgoExtremoHum    HumedadRelativa = 20
+	RiesgoExtremoViento VelocidadViento = 20
+	RiesgoAltoHum       HumedadRelativa = 30
+	RiesgoAltoTemp      Temperatura     = 5
+	RiesgoModHum        HumedadRelativa = 45
+	RiesgoModTemp       Temperatura     = 12
+)
 
 const (
 	RiesgoBajo     NivelRiesgoCutaneo = "Bajo"
@@ -30,7 +31,7 @@ func EvaluarRiesgoCutaneo(temp Temperatura, humedad HumedadRelativa, viento Velo
 		return "", errors.New("humedad relativa fuera de rango (0-100%)")
 	}
 
-	if temp <= RiesgoExtremoTemp && humedad <= RiegoExtremoHum && viento >= RiesgoExtremoViento {
+	if temp <= RiesgoExtremoTemp && humedad <= RiesgoExtremoHum && viento >= RiesgoExtremoViento {
 		return RiesgoExtremo, nil
 	}
 
