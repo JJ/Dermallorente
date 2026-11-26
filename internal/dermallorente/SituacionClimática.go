@@ -1,8 +1,15 @@
 package dermallorente
 
+type CodigoMunicipio string
+
+type ClaveSituacion struct {
+	Zona    CodigoMunicipio
+	Momento Momento
+}
+
 type SituacionClimatica struct {
-    Temperatura
-    Humedad
-    CalidadAire
-    IndiceUV
+    Temperatura float32
+    Humedad uint8
+    CalidadAire uint8
+    IndiceUV uint 8
 }
