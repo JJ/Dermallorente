@@ -1,9 +1,9 @@
 package dermallorente
 
-import time
+import "time"
 
 type Momento struct {
-	Año int
+	Año  int
 	Mes  time.Month
 	Dia  int
 	Hora uint8
