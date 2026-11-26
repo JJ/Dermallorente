@@ -1,3 +1,3 @@
 module github.com/JJ/Dermallorente
 
-go 1.22.12
+go 1.27.1
