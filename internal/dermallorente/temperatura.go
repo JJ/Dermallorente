@@ -1,6 +1,6 @@
 package dermallorente
 
-type temperatura float32
+type temperatura = Temperatura
 
 const (
 	MinimaTemperatura temperatura = -30.0
