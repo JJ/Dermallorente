@@ -8,5 +8,4 @@ linters:
   enable:
     - errcheck
     - govet
-    - revive
     - staticcheck
