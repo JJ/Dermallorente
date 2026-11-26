@@ -8,8 +8,8 @@ type ClaveSituacion struct {
 }
 
 type SituacionClimatica struct {
-    Temperatura float32
+    Temperatura int16
     Humedad uint8
     CalidadAire uint8
-    IndiceUV uint 8
+    IndiceUV uint8
 }
